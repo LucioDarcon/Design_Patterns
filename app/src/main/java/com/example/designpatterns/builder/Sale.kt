@@ -2,7 +2,7 @@ package com.example.designpatterns.builder
 
 class Sale {
 
-    private var discount : Float = 1F
+    private var discount : Float = 0F
     var product = arrayListOf<Product>()
 
     fun addDiscount(percent: Float) {

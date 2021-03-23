@@ -2,11 +2,16 @@ package com.example.designpatterns.builder
 
 abstract class SaleBuilder {
 
-    protected val sale = Sale()
+    protected var sale = Sale()
+
+    fun sale(): Sale {
+        return this.sale
+    }
+
+    fun sale(sale: Sale) {
+        this.sale = sale
+    }
 
     abstract fun buildAddDiscount()
 
-    abstract fun buildAddProduct()
-
-    abstract fun getPrice()
 }

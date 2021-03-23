@@ -1,12 +1,5 @@
 package com.example.designpatterns.factorymethod
 
-
-fun createPayment(payment: Payment) {
-    payment.setPrice(10.00)
-    payment.screenPayment()
-}
-
-
 fun main() {
 
     val bankSlip: Payment =  BankSlip()
