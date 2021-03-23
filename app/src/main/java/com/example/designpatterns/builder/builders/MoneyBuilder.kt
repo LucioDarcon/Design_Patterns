@@ -1,4 +1,4 @@
-package com.example.designpatterns.builder
+package com.example.designpatterns.builder.builders
 
 class MoneyBuilder : SaleBuilder() {
 

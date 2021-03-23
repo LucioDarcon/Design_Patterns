@@ -1,4 +1,6 @@
-package com.example.designpatterns.builder
+package com.example.designpatterns.builder.builders
+
+import com.example.designpatterns.builder.model.Sale
 
 abstract class SaleBuilder {
 

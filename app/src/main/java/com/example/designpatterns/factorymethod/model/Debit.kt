@@ -1,4 +1,6 @@
-package com.example.designpatterns.factorymethod
+package com.example.designpatterns.factorymethod.model
+
+import com.example.designpatterns.factorymethod.Payment
 
 class Debit : Payment {
 

@@ -1,6 +1,8 @@
-package com.example.designpatterns.factorymethod
+package com.example.designpatterns.factorymethod.model
 
-class BankSlip : Payment {
+import com.example.designpatterns.factorymethod.Payment
+
+class CreditCard : Payment {
 
     private var price: Double? = null
 
@@ -13,5 +15,8 @@ class BankSlip : Payment {
     fun screenPayment() {
         println(this::class.java.toString())
     }
+
+
+
 
 }

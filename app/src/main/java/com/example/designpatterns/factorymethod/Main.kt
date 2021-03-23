@@ -1,5 +1,9 @@
 package com.example.designpatterns.factorymethod
 
+import com.example.designpatterns.factorymethod.factory.BankSlipFactory
+import com.example.designpatterns.factorymethod.factory.CreditCardFactory
+import com.example.designpatterns.factorymethod.factory.DebitFactory
+
 fun main() {
 
 
