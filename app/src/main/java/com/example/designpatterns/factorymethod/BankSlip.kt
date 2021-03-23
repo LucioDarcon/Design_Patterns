@@ -1,6 +1,6 @@
-package com.example.designpatterns.abstractfactory
+package com.example.designpatterns.factorymethod
 
-class Debit : Payment {
+class BankSlip : Payment {
 
     private var price: Double? = null
 

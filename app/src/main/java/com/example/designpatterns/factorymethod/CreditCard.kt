@@ -1,4 +1,4 @@
-package com.example.designpatterns.abstractfactory
+package com.example.designpatterns.factorymethod
 
 class CreditCard : Payment {
 
