@@ -1,9 +1,10 @@
 package com.example.designpatterns.observable.rxjava
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import com.example.designpatterns.MainActivity2
 import com.example.designpatterns.R
 import com.google.gson.GsonBuilder
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
@@ -36,6 +37,11 @@ class MainActivity : AppCompatActivity() {
             }
 
         })
+
+        button.setOnClickListener {
+            val intent = Intent(this, MainActivity2::class.java)
+            startActivity(intent)
+        }
 
     }
 
